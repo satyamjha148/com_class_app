@@ -1,4 +1,4 @@
-import 'package:com_class/home/home_view.dart';
+import 'package:com_class/home/bottom_bar_view.dart';
 import 'package:com_class/widgets/buttons.dart';
 import 'package:com_class/widgets/text_fields.dart';
 import 'package:flutter/material.dart';
@@ -74,7 +74,7 @@ class LoginView extends StatelessWidget {
                 Navigator.pushAndRemoveUntil(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => HomeView(),
+                    builder: (context) => BottomBarView(),
                   ),
                   ModalRoute.withName('/'),
                 );
